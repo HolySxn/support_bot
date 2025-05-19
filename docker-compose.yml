@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    restart: always
+    volumes:
+      - ./.env:/app/.env
+    environment:
+      - TZ=Asia/Almaty  # Задаем временную зону для корректной работы планировщика
+    # Включить для отладки
+    # stdin_open: true
+    # tty: true
