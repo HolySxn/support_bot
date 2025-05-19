@@ -1,0 +1,17 @@
+# Секретные файлы
+.env
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+.venv/
+
+# Другие временные файлы
+*.log
+.DS_Store
